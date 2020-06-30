@@ -5,15 +5,21 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "i18n:add-locale": "lingui add-locale",
+    "i18n:extract": "lingui extract",
+    "i18n:compile": "lingui compile"
   },
   "dependencies": {
+    "@lingui/core": "^2.9.1",
+    "@lingui/react": "^2.9.1",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/bottom-tabs": "^5.6.1",
     "@react-navigation/native": "^5.6.1",
     "@types/styled-components": "^5.1.0",
     "expo": "~38.0.1",
     "expo-status-bar": "^1.0.0",
+    "i18n-js": "^3.7.0",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.0.tar.gz",
@@ -25,9 +31,19 @@
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
+    "@babel/core": "^7.10.3",
+    "@lingui/cli": "^2.9.1",
+    "@lingui/macro": "^2.9.1",
+    "@types/i18n-js": "^3.0.3",
+    "@types/lingui__core": "^2.7.0",
+    "@types/lingui__macro": "^2.7.3",
+    "@types/lingui__react": "^2.8.2",
     "@types/react": "~16.9.41",
     "@types/react-native": "~0.62.13",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "typescript": "~3.9.5"
   },
   "private": true

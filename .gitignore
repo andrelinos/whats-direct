@@ -12,5 +12,7 @@ web-build/
 # macOS
 .DS_Store
 
-
 yarn.lock
+
+locales/_build/
+locales/**/*.js

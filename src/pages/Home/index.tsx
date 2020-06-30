@@ -17,6 +17,8 @@ import {
   TextBt
 } from './styles';
 
+
+
 const Home: React.FC = () => {
   const [selectedValue, setSelectedValue] = useState("java");
 
@@ -27,7 +29,7 @@ const Home: React.FC = () => {
         backgroundColor="#075E54"
       />
 
-      <TitleHeader>Home Screen</TitleHeader>
+  <TitleHeader>homescreen</TitleHeader>
 
       <ContainerItems>
         <Description>
