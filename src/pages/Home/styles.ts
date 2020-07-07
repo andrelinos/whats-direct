@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
-import { Picker } from 'react-native';
+import { Picker, KeyboardAvoidingView } from 'react-native';
 
-export const Container = styled.View`
+export const Container = styled(KeyboardAvoidingView)`
   flex: 1;
   color: #fff;
 `;

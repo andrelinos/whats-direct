@@ -17,6 +17,8 @@
     "@react-navigation/bottom-tabs": "^5.6.1",
     "@react-navigation/native": "^5.6.1",
     "@types/styled-components": "^5.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "expo": "~38.0.1",
     "expo-status-bar": "^1.0.0",
     "i18n-js": "^3.7.0",
